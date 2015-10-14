@@ -8,13 +8,15 @@
     "node": "> 0.4"
   },
   "scripts": {
-    "test": "node node_modules/vows/bin/vows test/*.js --spec --isolate"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/mklabs/node-tabtab.git"
   },
   "devDependencies": {
+    "once": "^1.3.2",
+    "tape": "^4.2.1",
     "vows": "~0.8.1"
   },
   "licenses": [
